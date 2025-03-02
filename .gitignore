@@ -1,0 +1,36 @@
+# Ignore the Images directory (contains sensitive image data)
+Images/
+
+# Ignore system files (optional)
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files (if you are using virtualenv inside the project folder)
+env/
+venv/
+
+# Ignore model files (important — do NOT push large .h5 files to GitHub)
+*.h5
+*.hdf5
+
+# Ignore log files
+*.log
+
+# Ignore temporary files (Mac & PyCharm specific)
+.DS_Store
+.idea/
+
+# Ignore data files (optional — if you want to exclude images/datasets from git)
+data/
+datasets/
+*.csv
+*.xlsx
